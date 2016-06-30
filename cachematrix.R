@@ -6,7 +6,7 @@
 ## given in the function as well.
 
 
-makeCacheMatrix <- function(x = matrix(),dim,byrow=FALSE) {
+makeCacheMatrix <- function(x = matrix(),dim,byrow=TRUE) {
         inv<- NULL
         
         # changes certain elements of the vector stored
